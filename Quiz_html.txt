@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Minikk Sorular</title>
+</head>
+<body style="background-color: pink; text-align: center; font-family: sans-serif; padding-top: 60px;">
+
+  <h2>Minikk Sorular</h2>
+  
+  <p>1. asminin en sevdigi arkadasi kimdir?</p>
+  <input type="radio" name="soru1"> beyza <br>
+  <input type="radio" name="soru1"> Melek <br>
+  <input type="radio" name="soru1"> o aslindaa kimseyi sevmez<br>
+  <input type="radio" name="soru1"> ecenaz <br><br>
+
+  <p>2. asmin en cok ne isterr?</p>
+  <input type="radio" name="soru2"> ucmayi <br>
+  <input type="radio" name="soru2"> uyumayii(bunu secin)<br>  
+  <input type="radio" name="soru2"> gorunmez olmayi <br><br>
+
+
+  <p>sorularim nasil</p>
+  <input type="radio" name="soru3"> mukemmel olmus<br> 
+  <input type="radio" name="soru3"> baska da bir secenek yook<br><br>
+  
+  
+  <button onclick="window.location.href='mesaj.html'" style="padding: 10px 20px;">Devam Et</button>
+
+  
+  <audio autoplay loop>
+  
+    <source src="muzik.mp3" type="audio/mpeg">
+  
+  </audio>
+
+  
+</body>
+  
+</html>
